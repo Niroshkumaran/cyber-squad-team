@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins&display=swap');
+body {
+    background: url(Items/item1.jpg);
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
+}
+#navbar{
+    position: sticky;
+    top: o;
+    left: o;z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #29f700 !important;
+}
+#navbarSupportedContent a{
+    columns: #fff;
+    border-bottom: 2px solid transparent;
+
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid  #29f700; 
+
+
+}
+#navbarSupportedContent button{
+    background-color: #29f700;
+    border: 50px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background: url(item1.jpg);
+}
+h1{
+    font-size: 500px;
+    /* background-color: #fff; */
+    color: #fff;
+    letter-spacing: 3px;
+    text-align: center;
+    background-position:column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc;
+  
+                 
+
+}
+#home p{
+    font-size: 18px;
+    color: #fff;
+
+}
+#home .input-group{
+    width: 40px;
+    height: 45px;
+}
+.signin{
+    background-color: #29f700 !important;
+    color: white !important;
+    back-sh
+}
+
+/*****products****/
+
+#product{
+    background  : #e5e5e5;
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}    
+#product img{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background : #e5e5e5 !important;
+    border :none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.5),
+                insert 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+.card {
+    width: 300px; /* Set the width of the card */
+    height: 200px; /* Set the height of the card */
+    padding: 20px; /* Set padding inside the card */
+    margin: 10px; /* Set margin around the card */
+  }
+  
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.5),
+                inset -4px -4px 10px white;
+    transition: .25;               
+}    
+
+h2{
+    color: #fff;
+    background-color: #29f700;
+}
+#container{
+    box-shadow: insert 5px 5px 10px rgba(0,0,0,.5);
+    insert -4px -4px 10px white;
+transition: .25;
+
+}
+#contect img{
+    height: 500%;
+    border-image: auto;
+}
+.box{
+    width: 200% !important;
+    background-color: #15533f;
+
+}
+/* Define a CSS animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0; /* Start the animation with opacity 0 */
+    }
+    to {
+      opacity: 1; /* End the animation with opacity 1 */
+    }
+  }
+  
+  /* Apply the animation to the footer */
+  footer {
+    animation: fadeIn 1s ease-in-out; /* Apply the animation with a duration of 1 second */
+  }
+  
